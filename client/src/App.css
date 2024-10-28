@@ -1,0 +1,139 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.cabecera{
+  background-color: #D9D9D9;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  height: 75px;
+}
+
+.logo_flexxus{
+  width: 120px;
+  height: 30px;
+  margin-left: 50px; 
+}
+
+.breadcrumb{
+  color: #b0b0b0;
+  margin-bottom: 15px;
+  margin-top: -5px;
+}
+
+.space{
+  margin-bottom: 16;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.div_buscador_filtro{
+  display: flex;
+  flex-direction: row;
+}
+
+.layout{
+  min-height: 100vh;
+}
+
+.content{
+  margin: 25px 75px;  
+}
+
+.tabla{
+  margin-top: 15px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+}
+
+.ant-btn-color-dangerous.ant-btn-variant-link {
+  color: #1677ff;
+  box-shadow: none;
+}
+.ant-btn-color-dangerous.ant-btn-variant-link:not(:disabled):not(.ant-btn-disabled):hover {
+  color: #69b1ff;
+}
+
+.buscador{
+  border-radius: 8px;
+  margin-right: 15px;
+}
+
+.filtro{
+  border-radius: 8px;
+  width: 150px;
+}
+
+.footer{
+  text-align: "center";
+}
+
+.paginacion{
+  margin-top: 16px;
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.div_conteiner_c{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.div_conteiner_r{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.div_conteiner_r input{
+  width: 250px;
+}
+
+.btn_form{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn{
+  margin-top: 10px;
+  margin-bottom: -5px; 
+}
+
+.divider_sup{
+  margin-top: 15px;
+  width: 109%;
+  margin-left: -25px;
+}
+
+.divider_inf{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 109%;
+  margin-left: -25px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.spin{
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.divider_inf_eliminar{
+  width: 110%;
+  margin-left: -25px;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+
+.ant-modal-footer{
+  margin-bottom: -10px;
+}
